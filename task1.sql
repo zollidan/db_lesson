@@ -1,11 +1,11 @@
 -- Задание 1
-DROP DATABASE IF EXISTS Library_67;
+DROP DATABASE IF EXISTS Library_04;
 
-CREATE DATABASE Library_67
+CREATE DATABASE Library_04
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE Library_67;
+USE Library_04;
 
 
 CREATE TABLE books
