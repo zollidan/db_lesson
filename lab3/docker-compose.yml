@@ -1,0 +1,11 @@
+services:
+  mongodb:
+    image: mongo:8.0
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongodb_lab3_data:/data/db
+      - .:/work/lab3:ro
+    working_dir: /work
+volumes:
+  mongodb_lab3_data:
